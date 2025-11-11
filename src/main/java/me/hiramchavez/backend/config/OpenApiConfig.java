@@ -34,12 +34,12 @@ public class OpenApiConfig {
         Contact contact = new Contact();
         contact.setEmail("hiramchavezlopez@gmail.com");
         contact.setName("Hiram Chavez");
-        contact.setUrl("https://hiramchavez.me/");
+        contact.setUrl("https://hiram-oci-mty.duckdns.org/");
 
         License mitLicense = new License().name("MIT License").url("https://choosealicense.com/licenses/mit/");
 
         Info info = new Info()
-          .title("API of Notes List application")
+          .title("API of Notes List application v1")
           .version("1.0")
           .contact(contact)
           .description("This API allows the management of a Notes List.")

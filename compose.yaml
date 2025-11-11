@@ -19,7 +19,7 @@ services:
     restart: always
 
   server:
-    container_name: my-notes-api-v1 #TODO: Cambiar al nombre de tu proyecto
+    container_name: my-notes-api-v1
     build:
       context: .
     depends_on:
