@@ -1,0 +1,10 @@
+services:
+  server-my-notes-api-v1:
+    container_name: my-notes-api-v1
+    platform: linux/arm64
+    image: my-notes-api-v1:latest
+    ports:
+      - ${PORT}:${PORT}
+    env_file:
+      - .env.prod
+    restart: always
