@@ -35,15 +35,11 @@ The stack use to develop and deploy this project is:
 
 Clone the repo:
 ```bash
-git clone https://github.com/ElianaPranzetti/githubJustLearningMX-ensolvers-challenge.git
+git clone https://github.com/JustLearningMX/my-notes-api-v1.git
 ```
 
 ### Pre-requisites 📋
 
-* Go to dir `/backend`
-  ```bash
-    cd backend
-    ```
 * Build and compile the project with Gradle 8.
   ```groovy
   gradle build
@@ -57,7 +53,7 @@ git clone https://github.com/ElianaPranzetti/githubJustLearningMX-ensolvers-chal
   ```
 
 ### Usage ⏯
-1. Create a database in MySQL with the name `noteDB`.
+1. Create a database in MySQL with the name `my-notes-v1-db`.
 2. Run the application from the IDE.
 3. Open the browser and go to the URL `http://localhost:8080/swagger-ui/index.html` or use the demo on Heroku shown below on section Demo 👨‍💻.
 4. Use the Swagger UI to test the API.
@@ -126,11 +122,11 @@ git clone https://github.com/ElianaPranzetti/githubJustLearningMX-ensolvers-chal
 
 ## Demo 👨‍💻
                                                   
-- **Application Demo** on Heroku: [notes-app-api](https://notes-app-api-1d668731c17b.herokuapp.com/swagger-ui/index.html)
+- **Application Demo** on VM in OCI: [notes-app-api](https://hiram-oci-mty.duckdns.org/my-notes-api-v1/v1/swagger-ui/index.html)
 
 ## Frontend 🖥️
 
-Heroku: [ny-notes-app](https://my-notes-app-1673bce910ea.herokuapp.com/)
+Github Pages: [ny-notes-app](https://justlearningmx.github.io/my-notes-views-v1/)
 
 ## Author ✒️
 
